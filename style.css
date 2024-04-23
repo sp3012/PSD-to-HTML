@@ -1,0 +1,375 @@
+/* ALL IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section1 {
+  position: relative;
+  height: 44rem;
+  width: 100%;
+}
+
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#sparkle-img {
+  opacity: 0.3;
+}
+/* HEADER */
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 18.75rem;
+}
+
+.logo {
+  height: 2.6rem;
+  width: 2.6rem;
+  margin: 0.5rem;
+  display: flex;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.tags-links a {
+  color: #fefeff;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 1.56rem;
+}
+
+/* HEADER END */
+/* BANNER SECTION */
+
+.main-tag-line {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-div {
+  line-height: 6rem;
+  margin-bottom: 15rem;
+  margin-right: 5.62rem;
+}
+
+.main-tag-line h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 7.8rem;
+}
+
+.upper {
+  color: #4d4d4d;
+}
+.lower {
+  color: #414f6b;
+  letter-spacing: 0.28rem;
+}
+/* BANNER SECTION END */
+
+/* SECONF NAV BAR */
+
+.navbar2 {
+  height: 4.75rem;
+  display: flex;
+  margin: 0 18.75rem;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.near-logo {
+  margin: auto 0.62rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.31rem;
+}
+
+.upper2 {
+  color: #4d4d4d;
+}
+
+.links-below {
+  display: flex;
+}
+
+.links-below p {
+  color: #414f6b;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 1.56rem;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  margin-bottom: 0.75rem;
+}
+.links-below a {
+  color: #414f6b;
+}
+.lower2 {
+  color: #414f6b;
+  letter-spacing: 0.7px;
+}
+
+/* END OF NAVBAR 2 */
+
+/* SECTION 2 */
+
+.background-img-container {
+  position: relative;
+  height: 43.75rem;
+  width: 100%;
+}
+
+.his-head-container {
+  display: flex;
+  margin: 0 18.75rem;
+}
+
+.history-heading {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 8.5rem;
+  color: #7487a1;
+  position: relative;
+}
+
+.history-tagLine {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 2rem;
+  color: #414f6b;
+  margin-top: 5.8rem;
+  position: absolute;
+  left: 26.75rem;
+}
+
+.history-description {
+  margin-top: -2rem;
+}
+
+.history-description p {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  margin: 0 18.75rem;
+  color: #000000;
+  padding-bottom: 0.75rem;
+}
+
+/* BOTTOM CONTAINER OF SECTION 2 */
+
+.history-bottom-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #37435a;
+  height: 12.75rem;
+  width: 100%;
+  opacity: 0.6; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.conatiner-for-cards {
+  width: 924px;
+  height: 135px;
+  overflow: hidden;
+  position: relative;
+}
+
+.img-container {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: slideShow 12s infinite linear;
+}
+
+.slide {
+  width: 220px;
+  height: 135px;
+  display: flex;
+  margin: 0 0.75rem;
+}
+
+.card-img {
+  width: 220px;
+  height: 135px;
+  object-fit: cover;
+  margin: 0 0.75rem;
+}
+
+@keyframes slideShow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-660px);
+  }
+}
+
+/* END OF BOTTOM CONTAINER */
+/* END OF SECTION 2 */
+
+/* SECTION 3 STARTING */
+
+.team-tagLine {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 2rem;
+  color: #414f6b;
+  margin-top: 5.8rem;
+  position: absolute;
+  left: 27.5rem;
+}
+
+.team-desc-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-description {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  margin-left: 4.68rem;
+}
+
+/* SECTION 3 MINI NAVBAR */
+
+.bottom-nav {
+  height: 2.5rem;
+  width: 100%;
+  background-color: #414f6b;
+}
+
+.bottom-nav-links {
+  display: flex;
+  margin: 0 18.75rem;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+.bottom-link-0ne {
+  background-color: #b0b4be;
+  height: 2.5rem;
+  color: #414f6b;
+  margin: 0px 1.1rem;
+  padding: 0 0.9rem;
+  text-decoration: underline;
+}
+
+.bottom-link-two {
+  color: #a4a9b4;
+}
+
+/* BACKGROUND IMG SECTION 3 */
+
+.background-img-section3 {
+  height: 31.25rem;
+  width: 100%;
+  position: relative;
+}
+
+.white-board {
+  background-color: #f3f5f8;
+  margin: 0 18.75rem;
+  width: 21.8rem;
+  height: 14.3rem;
+  opacity: 0.9;
+  position: absolute;
+  top: 6.25rem;
+  left: 1.87rem;
+}
+
+.white-borad-desc {
+  margin: 1rem 2.5rem 1.87rem 2.5rem;
+}
+
+.board-heading {
+  color: #414f6b;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 2rem;
+  opacity: 1;
+}
+
+.data {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #858688;
+}
+
+.column {
+  width: 50%;
+  white-space-collapse: preserve-breaks;
+}
+
+/* SECTION 3 END */
+
+/* FOOTER */
+
+.footer {
+  background-color: #414f6b;
+}
+
+.footer-upper,
+.footer-lower {
+  color: #61739a;
+}
+
+.footer-lower {
+  letter-spacing: 1px;
+}
+
+.copy-right {
+  font-family: "Lato", sans-serif;
+  font-size: 0.75rem;
+  font-style: italic;
+  color: #61739a;
+}

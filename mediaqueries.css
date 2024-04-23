@@ -1,0 +1,321 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .head {
+    margin: 0 9rem;
+  }
+
+  .section1 {
+    width: 100%;
+    height: 25rem;
+  }
+
+  /* HEADER */
+  .logo {
+    height: 2.2rem;
+    width: 2.2rem;
+  }
+
+  .tags-links a {
+    font-size: 0.9rem;
+  }
+
+  /* HEADER END */
+
+  /* LOSANGELES PART */
+  .main-tag-line {
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-div {
+    line-height: 3.1rem;
+    margin-bottom: 8rem;
+    margin-right: 0.75rem;
+  }
+
+  .main-tag-line h1 {
+    font-size: 3.8rem;
+  }
+
+  .lower {
+    letter-spacing: 0.15rem;
+  }
+
+  /* LOSANGELES END */
+
+  /* SECOND NAVBAR */
+  .navbar2 {
+    margin: 0 9rem;
+  }
+
+  .near-logo {
+    font-size: 1.2rem;
+  }
+
+  .links-below p {
+    font-size: 0.9rem;
+  }
+
+  /* SECOND NAVBAR END*/
+
+  /* SECTION 2 */
+
+  .his-head-container {
+    margin: 0 9rem;
+  }
+
+  .history-heading {
+    font-size: 5.5rem;
+  }
+
+  .history-description {
+    margin-top: -1rem;
+  }
+
+  .history-description p {
+    margin: 0 9rem;
+    font-size: 0.9rem;
+  }
+
+  .history-tagLine {
+    left: 14rem;
+    margin-top: 3.3rem;
+    font-size: 1.8rem;
+  }
+
+  /* CARDS CONTAINER */
+  .background-img-container {
+    height: 31.75rem;
+  }
+
+  .history-bottom-container {
+    height: 8.75rem;
+  }
+
+  .conatiner-for-cards {
+    margin: 0 9rem;
+  }
+
+  .conatiner-for-cards img {
+    height: 5rem;
+    width: 7rem;
+  }
+
+  .card-img {
+    margin: 1.8rem 0.37rem;
+  }
+
+  /* SECTION  2 END */
+
+  /* SECTION 3 */
+
+  .team-tagLine {
+    margin-top: 3.2rem;
+    left: 14.6rem;
+  }
+
+  .team-description {
+    font-size: 0.9rem;
+  }
+
+  /* BOTTOM NAV */
+
+  .bottom-nav-links {
+    margin: 0 9rem;
+  }
+
+  .background-img-section3 {
+    height: 25.25rem;
+  }
+
+  /* WHITE BOARD */
+
+  .white-board {
+    top: 3.25rem;
+    left: -12.13rem;
+    width: 18.8rem;
+    height: 12.3rem;
+  }
+
+  .board-heading {
+    font-size: 1.6rem;
+  }
+
+  .data {
+    font-size: 0.8rem;
+  }
+  /* SECTION 3 END */
+}
+
+@media screen and (max-width: 767px) {
+  /* HEADER */
+
+  .head,
+  .navbar2,
+  .his-head-container,
+  .history-description p,
+  .conatiner-for-cards,
+  .bottom-nav-links {
+    margin: 0 2.75rem;
+  }
+
+  .logo {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .tags-links a {
+    margin: 0 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  /* HEADER END */
+
+  /* SECTION 1 */
+  .background-img {
+    height: 100%;
+  }
+
+  .section1 {
+    height: 20rem;
+  }
+
+  /* TAG LINE */
+  .main-tag-line {
+    height: 25vh;
+  }
+
+  .main-tag-line h1 {
+    font-size: 2.2rem;
+  }
+
+  .text-div {
+    line-height: 1.7rem;
+    margin-bottom: 2.5rem;
+    margin-right: 1.62rem;
+  }
+
+  .lower {
+    letter-spacing: 0.09rem;
+  }
+
+  /* NAVBAR 2 */
+  .navbar2 {
+    height: 3rem;
+  }
+
+  .near-logo {
+    font-size: 1rem;
+    line-height: 0.9rem;
+  }
+
+  .links-below p {
+    font-size: 0.7rem;
+    margin: 0 0.8rem;
+  }
+
+  /* SECTION 2 */
+
+  .background-img-container {
+    height: 32.75rem;
+  }
+
+  .history-heading {
+    font-size: 4.5rem;
+  }
+
+  .history-description {
+    margin-top: 0;
+  }
+  .history-description p {
+    font-size: 0.7rem;
+  }
+
+  .history-tagLine {
+    margin-top: 3.2rem;
+    left: 6.8rem;
+    font-size: 1rem;
+  }
+
+  #card-two,
+  #card-three {
+    display: none;
+  }
+
+  .card-img {
+    height: 6rem;
+    width: 6.5rem;
+    margin: 1rem 0.6rem;
+  }
+
+  .history-bottom-container {
+    height: 8rem;
+  }
+
+  /* SECTION 2 END */
+
+  /* SECTION 3 */
+
+  .team-description {
+    font-size: 0.7rem;
+    margin-left: 2.68rem;
+  }
+
+
+  .team-tagLine {
+    margin-top: 3.2rem;
+    left: 7.4rem;
+    font-size: 1rem;
+  }
+
+  /* BOTTOM NAV */
+
+  .bottom-nav {
+    height: 1.5rem;
+  }
+  .bottom-nav-links {
+    font-size: 0.7rem;
+  }
+
+  .bottom-link-0ne {
+    margin: 0px 0.5rem;
+    height: 1.5rem;
+  }
+
+  /* SECTION 3 */
+
+  .background-img-section3 {
+    height: 20.75rem;
+  }
+
+  .board-heading {
+    font-size: 1rem;
+  }
+
+  .data {
+    font-size: 0.7rem;
+  }
+
+  .white-board {
+    background-color: #f3f5f8;
+    width: 12.7rem;
+    height: 9.1rem;
+    top: 2.35rem;
+    left: -16.03rem;
+  }
+
+  .white-borad-desc {
+    margin: 0.1rem 0.5rem;
+  }
+  .navbar2{
+    height: 2.4rem;
+  }
+  .copy-right {
+    font-size: 0.45rem;
+  }
+
+  .footer-lower{
+    letter-spacing: 0.04rem;
+  }
+}
